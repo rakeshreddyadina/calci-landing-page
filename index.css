@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+#features ul li {
+    margin-bottom: 10px;
+}
+
+.screenshot {
+    text-align: center;
+}
+
+.screenshot img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+/* Media Query for Desktop View */
+@media screen and (min-width: 768px) {
+    .screenshot {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .screenshot img {
+        width: 48%;
+        margin-bottom: 0;
+    }
+}
